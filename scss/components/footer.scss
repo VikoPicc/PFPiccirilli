@@ -1,0 +1,34 @@
+footer{
+    .footer-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px;        
+    }
+    background: $tertiary-text-color;
+    text-align: center;
+    padding: 5px;
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;       
+        li{
+            list-style: none;
+            a{
+                &:hover{
+                    background-color: #baaeac;   
+                    padding: 8px 6px;
+                    border-radius: 10px;                                  
+                }
+            }
+        }
+    }
+    img{
+        filter: invert(16%) sepia(78%) saturate(983%) hue-rotate(345deg) brightness(87%) contrast(93%);
+        width: 30px;
+    }
+}
+
+

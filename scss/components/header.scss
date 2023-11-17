@@ -1,0 +1,32 @@
+header{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    background-color:$secondary-background-color ;
+    z-index: 999;
+    #logoBarra{
+        width: 50px;
+        position: absolute;
+        left: 8px;
+        top: -10px;
+    }
+    nav ul li{
+        list-style: none;
+        a{
+            display: inline-block;
+            text-decoration: none;
+            color: $primary-text-color;
+            margin: 0 10px;
+            border-radius: 30px;
+            padding: 5px 15px;
+            &:hover{
+                background-color: #38c6b6;
+                color: #ecccad;
+            }
+        }
+    } 
+}
+
+.dropdown-menu {
+    overflow: hidden;
+}

@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mooli";
+}
+
+.bg-body {
+  background: #f5e3e0 !important;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background-color: #82dcd1;
+  z-index: 999;
+}
+header #logoBarra {
+  width: 50px;
+  position: absolute;
+  left: 8px;
+  top: -10px;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #2e6176;
+  margin: 0 10px;
+  border-radius: 30px;
+  padding: 5px 15px;
+}
+header nav ul li a:hover {
+  background-color: #38c6b6;
+  color: #ecccad;
+}
+
+.dropdown-menu {
+  overflow: hidden;
+}
+
+footer {
+  background: #ddcbc7;
+  text-align: center;
+  padding: 5px;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a:hover {
+  background-color: #baaeac;
+  padding: 8px 6px;
+  border-radius: 10px;
+}
+footer img {
+  filter: invert(16%) sepia(78%) saturate(983%) hue-rotate(345deg) brightness(87%) contrast(93%);
+  width: 30px;
+}
+
+main {
+  min-height: 100vh;
+}
+
+#encabezadoImg {
+  background-image: url(../images/icono.jpg);
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ecccad;
+}
+#encabezadoImg p {
+  font-size: 20px;
+}
+#encabezadoImg h1 {
+  font-size: 80px;
+  padding: 20px 0;
+}
+
+.titulosimp {
+  color: #3c3927;
+  font-size: 50px;
+  padding: 20px 0;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#segundaSeccion {
+  background-color: #f5e3e0;
+  text-align: center;
+}
+
+.tarjeta-videos {
+  display: inline-block;
+  height: 400px;
+}
+.tarjeta-videos p {
+  font-size: 30px;
+  color: #2e6176;
+  padding: 15px;
+}
+.tarjeta-videos a {
+  color: #f5e3e0;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  background-color: #2e6176;
+  width: 100px;
+}
+.tarjeta-videos a:hover {
+  background-color: #38c6b6;
+  color: #2e6176;
+}
+.tarjeta-videos img {
+  max-height: 450px;
+  width: 100%;
+}
+
+.img-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.img-container:hover .btn-ver-mas {
+  bottom: 5px;
+}
+
+.img-container-1 {
+  background-image: url(../../images/ghee.jpg);
+}
+
+.img-container-2 {
+  background-image: url(../../images/alfrut.jpg);
+}
+
+.btn-ver-mas {
+  position: absolute;
+  bottom: -65px;
+  left: 50%;
+  background: #2e6176;
+  border: none;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+}
+.btn-ver-mas:hover {
+  background: #82dcd1;
+}
+
+#contenido {
+  margin: 0px 300px;
+  margin-bottom: 100px;
+}
+#contenido h2 {
+  color: #2e6176;
+}
+
+.description-container {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.description-container:nth-of-type(even) {
+  background: #ddcbc7;
+}
+.description-container:nth-of-type(even) p {
+  color: #3c3927;
+}
+.description-container p {
+  color: #3c3927;
+  font-size: 24px;
+}
+
+#carouselExampleCaptions {
+  width: 100%;
+  height: 800px;
+}
+
+.sobre-mi {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #f5e3e0;
+}
+.sobre-mi .circular-avatar {
+  float: left;
+  background: url("../../images/perfil1.jpg");
+  border: 2px solid floralwhite;
+  width: 360px;
+  height: 360px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 80px;
+}
+
+.text-box1 {
+  color: #2e6176;
+  max-width: 450px;
+  max-height: 500px;
+}
+.text-box1 h2 {
+  font-size: 42px;
+  max-width: 800px;
+  text-align: left;
+  color: rgb(98, 97, 97);
+}
+.text-box1 p {
+  font-size: 20px;
+  max-width: 800px;
+  text-align: left;
+}
+
+.contact-form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../images/carru1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.contact-form form {
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.contact-form h2 {
+  color: #e6825e;
+  text-align: center;
+  margin: 0;
+  font-size: 100px;
+}
+.contact-form input, .contact-form textarea {
+  width: 60%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+.contact-form #boton {
+  background: #e6825e;
+  color: #3c3927;
+  padding: 20px;
+}
+.contact-form #boton:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .contact-form form {
+    width: 100px;
+  }
+  .contact-form h2 {
+    font-size: 50px;
+  }
+  #encabezadoImg {
+    background-size: cover;
+  }
+  #encabezadoImg h1 {
+    font-size: 40px;
+  }
+  .tarjeta-videos img {
+    max-height: 250px;
+    width: 60%;
+  }
+  .tarjeta-videos p {
+    font-size: 15px;
+    padding: auto;
+  }
+  .titulosimp {
+    font-size: 18px;
+    padding: 20px 0;
+  }
+  footer ul {
+    width: 70%;
+  }
+  #contenido {
+    margin: 0px 0px;
+  }
+  #contenido p {
+    font-size: 14px;
+  }
+  .img-container {
+    margin-top: 0px;
+    height: 300px;
+  }
+  .sobre-mi {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 30px;
+  }
+  .sobre-mi p, .sobre-mi h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .sobre-mi .circular-avatar {
+    width: 180px;
+    height: 180px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

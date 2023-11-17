@@ -1,0 +1,59 @@
+#encabezadoImg{
+    background-image: url(../images/icono.jpg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ecccad;
+    p{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 80px;
+        padding: 20px 0;
+    }
+}
+
+.titulosimp{
+    color: $secondary-text-color;
+    font-size: 50px;
+    padding: 20px 0;
+    text-align: center;
+    padding-top: 100px;
+}
+#segundaSeccion{
+    background-color: $primary-background-color;
+    text-align: center;
+  
+}
+.tarjeta-videos{
+    display: inline-block;
+    height: 400px;
+    p{
+        font-size: 30px;
+        color: $primary-text-color;
+        padding: 15px;
+    }
+    a{
+        color: $primary-background-color;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 30px;
+        background-color: $primary-text-color;
+        width: 100px;
+        &:hover{
+            background-color: #38c6b6;
+            color: $primary-text-color;
+        }
+    }
+    img{
+        max-height: 450px;
+        width: 100%;
+    }
+}
+

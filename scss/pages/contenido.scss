@@ -1,0 +1,60 @@
+.img-container{    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+    position: relative;
+    overflow: hidden;
+
+    &:hover{
+        .btn-ver-mas{
+            bottom: 5px;
+        }
+    }
+}
+
+.img-container-1{
+    background-image: url(../../images/ghee.jpg);        
+}
+.img-container-2{
+    background-image: url(../../images/alfrut.jpg);        
+}
+
+.btn-ver-mas {
+    position: absolute;
+    bottom: -65px;
+    left:50%;
+    background: $primary-text-color;
+    border: none;
+    transform: translate(-50%, -50%);
+    transition:  all 0.3s ease-in-out;
+
+    &:hover{
+        background: $secondary-background-color;
+    }
+}
+
+#contenido{
+    margin: 0px 300px;
+    margin-bottom: 100px ;
+    h2{
+        color: $primary-text-color;
+    }
+    
+
+}
+.description-container{
+    padding-top: 100px;
+    padding-bottom: 200px;   
+
+    &:nth-of-type(even){
+        background: $tertiary-text-color;
+        p {
+            color: $secondary-text-color;
+        }
+    }
+
+    p{
+        color: $secondary-text-color;
+        font-size: 24px;
+    }
+}
