@@ -193,12 +193,51 @@ main {
 }
 .description-container p {
   color: #3c3927;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #carouselExampleCaptions {
   width: 100%;
   height: 800px;
+}
+
+.main-cultura {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #f5e3e0;
+}
+.main-cultura .holi-avatar {
+  float: left;
+  background: url(../images/holifest.jpg);
+  border: 2px solid floralwhite;
+  width: 560px;
+  height: 560px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-right: 80px;
+}
+
+.text-box1 {
+  color: #2e6176;
+  max-width: 450px;
+  max-height: 500px;
+}
+.text-box1 h2 {
+  font-size: 42px;
+  max-width: 800px;
+  text-align: left;
+  color: rgb(98, 97, 97);
+}
+.text-box1 p {
+  font-size: 20px;
+  max-width: 800px;
+  text-align: left;
 }
 
 .sobre-mi {
